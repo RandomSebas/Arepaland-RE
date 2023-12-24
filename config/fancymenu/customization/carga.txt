@@ -1,0 +1,34 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Esto puede tardar bastante dependiendo de tu pc%n%Intenta moverte un poco cuando el mundo se genere%n% porque te va a ir a 5fps al inicio o menos
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 178
+  width = 277
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ff426526-00eb-4b4d-9f40-7f52fd100cb41703373180726
+  y = 84
+  alignment = centered
+  height = 40
+}
+

@@ -1,0 +1,69 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 216
+  width = 528
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = e753a354-66be-407f-a125-f1b0020fb6f41703372756279
+  y = 198
+  height = 132
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = d5f503b4-9aee-432b-bf31-0ab6165c5cf51703372756284
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = bottom-left
+  hidden = false
+  original_pos_size_calculation = false
+  x = 15
+  width = 360
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 1a14b4b8-558f-485a-b91f-928df91862a61703372756284
+  y = -31
+  height = 10
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 2.0
+  source = El juego tarda de 5 a 10min en cargar%n%Depende de tu pc :3%n%Si no asignaste 4gb de ram o mas, cagaste
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -259
+  width = 522
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8b179608-81e8-4842-94fb-99baa74758781703372854826
+  y = -74
+  alignment = centered
+  height = 72
+}
+

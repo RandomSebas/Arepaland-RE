@@ -1,0 +1,315 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = setbuttonlabel
+  value = RsebaS. 2023
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -111
+  action = movebutton
+  y = -87
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-right
+  x = -221
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 212
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Opciones
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-right
+  x = -88
+  action = movebutton
+  y = 14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 64
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Salir
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-right
+  x = -220
+  action = movebutton
+  y = -87
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-right
+  x = -220
+  action = movebutton
+  y = -58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 212
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 39581e17-f713-4997-8102-553e35a606911703371586225
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 149
+  action = deep_customization_element:title_screen_branding
+  actionid = 00321c1f-b4bb-4456-8433-87695fe521b81703371586244
+  y = 467
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 06a77514-b52d-4053-8a8e-6f8e8618c1571703371586245
+  y = 509
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = de6618e8-18f0-41fd-baa7-66ff5a3e18f31703371586246
+  y = 232
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = d2363e0e-2522-4584-a020-b8aadba31c2f1703371586246
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = b7084651-e7d6-447d-80dc-f180cad4e01c1703371586246
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = AREPALAND PRE ALPHA BUILD%n%- NO REFLJEJA LA VERSION FINAL -
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 372
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 152c130c-afea-4d6d-8fd5-2448432d55931703371620556
+  y = -48
+  alignment = centered
+  height = 51
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/16b53064042bda4caadc10489f4304052406a31d46d15925d3f63438ad035538
+  showname = true
+  crouching = false
+  follow_mouse = true
+  x = 17
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 6b1a24a9-581e-45ef-8b77-6c383ee2be2d1703372098641
+  y = 32
+  playername = RsebaS
+  bodyrotationx = 0.0
+  parrot = true
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"totalmods"} Mods Activos%n%Estas jugando en la {"placeholder":"mcversion"} %n%{"placeholder":"maxram"} MB DE RAM ALOCADA
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 252
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a05aa1f7-2140-4e10-bcfc-fa7545cc243b1703372144768
+  y = -40
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = RsebaS 2023
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -200
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8f259876-ea63-4a97-b3e3-382e6e50e4361703373035657
+  y = -13
+  alignment = right
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Esta es una version para helpers y testers%n%Las cosas probablemente se rompan o crasheen%n%Es normal
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 26
+  width = 257
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4349aef9-a2ad-4c9a-bd3c-6bb87440c3131703373082875
+  y = 195
+  alignment = left
+  height = 40
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-right
+  x = -220
+  action = movebutton
+  y = 20
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-right
+  x = -189
+  action = movebutton
+  y = 20
+}
+

@@ -1,0 +1,21 @@
+
+["AutoMessage Common Configuration"]
+	# Send message(s) when player joins a world?
+	JOIN_MESSAGES_ENABLED = false
+	# AutoMessage supports multiple messages, however, these are all sent at once.
+	JOIN_MESSAGE_STRINGS = ["Client only message, links to google", "Optional second message, links to google"]
+	# Every message should have a link or an empty value.
+	JOIN_MESSAGE_LINKS = ["https://www.google.com", "https://www.google.com"]
+	# Should regular automated messages be sent?
+	AUTO_MESSAGE_ENABLED = false
+	# What messages should be sent?
+	AUTO_MESSAGE_STRINGS = ["Default Message One: every 5 seconds, 4 times every session. Unlimited.", "Default Message Two: every 8 seconds, unlimited times every session. Limited to 10."]
+	# Should the message have a link? (or leave as empty quotation marks)
+	AUTO_MESSAGE_LINKS = ["https://www.google.com", "https://www.google.com"]
+	# How long should we wait between sending this message?
+	AUTO_MESSAGE_INTERVALS = [5, 8]
+	# How many times should the player see this message while playing in one session?
+	AUTO_MESSAGE_SOFT_LIMITS = [4, 0]
+	# How many times should this player see this message in this world?
+	AUTO_MESSAGE_HARD_LIMITS = [0, 10]
+
